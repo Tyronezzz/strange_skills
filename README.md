@@ -13,6 +13,10 @@ Reference: https://zhuanlan.zhihu.com/p/93795692
 - 区间查询：查询一个区间内所有元素的和
 
 
+
+![image_bit](https://github.com/Tyronezzz/strange_skills/images/bit.png)
+
+
 我们定义：二进制数x最右边的一个1，连带着它之后的0为lowbit(x)。那么
 ```
 lowbit(x) = x & (-x);
