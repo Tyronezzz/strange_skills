@@ -132,3 +132,21 @@ https://zhuanlan.zhihu.com/p/79980618
 
 
 
+## Union Find
+### Reference
+https://www.jianshu.com/p/fc17847b0a31
+https://www.cnblogs.com/MrSaver/p/9607552.html
+
+
+root->parent = root;
+
+### Operations
+- Find
+- Union
+
+### Improvement
+- 按秩合并。将高度低的树接到高度高的树上
+- 路径压缩。将路径上的所有节点都直接连接到根节点上
+
+
+
