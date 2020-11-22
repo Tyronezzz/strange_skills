@@ -99,3 +99,36 @@ https://www.jianshu.com/p/6fd130084a43
 
 
 
+
+
+## Red Black Tree
+
+### Reference
+https://www.jianshu.com/p/e136ec79235c
+https://zhuanlan.zhihu.com/p/79980618
+
+### Defination
+「RBT」是一个自平衡(不是绝对的平衡)的二叉查找树(BST)，遵循以下规则：
+1. 每个节点都是红色或黑色
+2. 树的根始终是黑色的
+3. 没有两个相邻的红色节点（红色节点不能有红色父节点或红色子节点，并没有说不能出现连续的黑色节点）
+4. 从节点（包括根）到其任何后代NULL节点(叶子结点下方挂的两个空节点，并且认为他们是黑色的)的每条路径都具有相同数量的黑色节点
+
+
+### Operation
+1. recolor
+2. rotate
+
+插入
+查找
+删除
+
+### 引理
+一个有n个内结点的RBT高度至多为 2lg(n+1).
+证明见_Introduction to algorithms_
+
+
+
+
+
+
